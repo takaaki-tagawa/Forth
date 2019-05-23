@@ -1,15 +1,9 @@
-for(int i=0;i<100;i++)
-{
-    if(i%15 == 0){
+for i in range(1,101):
+    if i%15 == 0:
         print("Fizz Buzz  ")
-    }
-    elif(i%3 == 0){
+    elif i%3 == 0:
         print("Fizz  ")
-    }
-    elif(i%5 == 0){
+    elif i%5 == 0:
         print("Buzz  ")
-    }
-    elif{
+    else :
         print(i)
-    }
-}
